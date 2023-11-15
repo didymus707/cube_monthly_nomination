@@ -20,7 +20,7 @@ export const HeroSection = () => {
       </article>
 
       <div
-        className="flex justify-center w-full mt-[154px] px-6 py-[21px] border border-top shadow-md"
+        className="flex justify-center w-full mt-[154px] px-6 py-[21px]"
         style={{
           boxShadow: "0px 2px 10px 0px rgba(26, 26, 25, 0.24)",
         }}
