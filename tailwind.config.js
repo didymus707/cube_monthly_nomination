@@ -5,7 +5,7 @@ export default {
     extend: {},
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
-      anon: ["Anonymous Pro", "monospace"],
+      anon: ['"Anonymous Pro"', "monospace"],
     },
   },
   plugins: [],
