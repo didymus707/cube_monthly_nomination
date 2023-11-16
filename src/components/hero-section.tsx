@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImg from "../assets/hero.png";
 import { Button } from "./custom/button";
+import { Footer } from "./footer";
 
 export const HeroSection = () => {
   return (
@@ -19,11 +20,14 @@ export const HeroSection = () => {
         </p>
       </article>
 
+      <Footer />
+
       <div
-        className="flex justify-center w-full mt-[154px] px-6 py-[21px]"
-        style={{
-          boxShadow: "0px 2px 10px 0px rgba(26, 26, 25, 0.24)",
-        }}
+        className="flex justify-center w-full px-6 pb-6"
+        // className="flex justify-center w-full px-6 py-[21px]"
+        // style={{
+        //   boxShadow: "0px 2px 10px 0px rgba(26, 26, 25, 0.24)",
+        // }}
       >
         <Button text="GET STARTED" />
       </div>
