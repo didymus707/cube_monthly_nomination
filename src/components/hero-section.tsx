@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <img src={HeroImg} alt="hero image" />
       </div>
       <article className="pt-7 px-4 text-center">
-        <h2 className="font-poppins text-[32px]/[48px] not-italic font-bold tracking-[0.2px] uppercase border border-blue-700">
+        <h2 className="font-poppins text-[32px]/[48px] not-italic font-bold tracking-[0.2px] uppercase">
           CUBE OF THE MONTH NOMINATIONS
         </h2>
         <p className="pt-3 font-anon text-base">
