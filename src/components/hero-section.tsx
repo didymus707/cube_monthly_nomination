@@ -6,6 +6,10 @@ import { Footer } from "./footer";
 export const HeroSection = () => {
   return (
     <section>
+      <div className="absolute " />
+      <div>
+        
+      </div>
       <div className="hero">
         <img src={HeroImg} alt="hero image" />
       </div>
