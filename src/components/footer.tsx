@@ -4,7 +4,7 @@ export const Footer = () => (
   <footer className="bg-black text-white mt-[154px]">
     <div>
       <div className="logo py-6 flex justify-center">
-        <Logo3Sc />
+        <Logo3Sc classNames={[]} />
       </div>
       <div className="horizontal w-[310px] h-[2px] bg-[#C3C3C3] mx-auto" />
       <div className="ml-[28px] mt-6 mb-[27px]">
