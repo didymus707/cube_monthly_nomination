@@ -1,12 +1,12 @@
 import { Logo3Sc } from "./custom/icons";
 
 export const Footer = () => (
-  <footer className="bg-black text-white mt-[154px]">
-    <div>
-      <div className="logo py-6 flex justify-center">
-        <Logo3Sc classNames={[]} />
-      </div>
-      <div className="horizontal w-[310px] h-[2px] bg-[#C3C3C3] mx-auto" />
+  <footer className="relative bg-black text-white mt-[154px]">
+    <div className="flex flex-col">
+      <button className="py-6 flex justify-center">
+        <Logo3Sc classNames={["flex"]} />
+      </button>
+      <div className="horizontal w-[80%] h-[2px] bg-[#C3C3C3] mx-auto" />
       <div className="ml-[28px] mt-6 mb-[27px]">
         <ul className="pl-[10px] flex flex-col gap-y-3 text-white list-none">
           <li className="text-xs/[18px]">

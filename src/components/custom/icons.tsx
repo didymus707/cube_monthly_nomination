@@ -23,7 +23,7 @@ export const EmblemLogo = () => {
 export const Logo = (props: IconProps) => {
   const { classNames } = props;
   return (
-    <button className={classNames.join()}>
+    <button className={classNames.join(" ")}>
       <svg
         width="40"
         height="37"
@@ -37,13 +37,15 @@ export const Logo = (props: IconProps) => {
         />
       </svg>
     </button>
+    // <button className={classNames.join()}>
+    // </button>
   );
 };
 
 export const Logo3Sc = (props: IconProps) => {
   const { classNames } = props;
   return (
-    <button className={classNames.join()}>
+    <button className={classNames.join(" ")}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="197"
